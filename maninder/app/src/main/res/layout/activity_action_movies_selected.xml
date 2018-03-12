@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.sunilkumar.yourcinema.ActionMoviesSelected">
+
+    <!--  Pics with name and actors             -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <!--   pic                  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400px"
+                android:layout_height="268dp"
+                app:srcCompat="@drawable/act"
+
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <!-- Name and director info     -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="19dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie Name"
+
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_margin="5dp"
+                 />
+
+            <TextView
+                android:id="@+id/textViewDirector"
+                android:textColor="#000066"
+                android:layout_margin="5dp"
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Director: Abc"
+                />
+
+            <TextView
+                android:textColor="#000066"
+                android:id="@+id/textViewWriter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Writer: Abc"
+                android:textSize="12dp" />
+
+
+            <Button
+                android:gravity="center"
+                android:id="@+id/buttonTrailer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#aabbcc"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:text="Trailer" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- Rating and overiew    -->
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Grade"
+
+
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textView17"
+            />
+
+        <TextView
+            android:id="@+id/textViewStory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:text="Story Line"
+
+            />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

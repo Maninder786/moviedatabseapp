@@ -1,0 +1,1504 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sunilkumar.yourcinema.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="450dp"
+        android:layout_height="match_parent">
+        // Action movie
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ActionT01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Action Movie"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    // 1 ///
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/ActionM1"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_marginLeft="21dp"
+                                android:layout_marginStart="21dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/action1"
+                                android:layout_weight="0.04" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ActionT1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 2 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ActionM2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/action2" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ActionT2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 3 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ActionM3"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/action3" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ActionT3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 4 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ActionM4"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                app:srcCompat="@drawable/action4" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ActionT4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  5  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ActionM5"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/action5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ActionT5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  6  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/ActionM6"
+                                    android:layout_width="120dp"
+                                    android:layout_height="170dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView2"
+                                    app:srcCompat="@drawable/action6" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/ActionT6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignLeft="@+id/textView2"
+                                        android:layout_alignStart="@+id/textView2"
+                                        android:layout_below="@+id/imageView2"
+                                        android:layout_marginTop="5dp"
+                                        android:text="The Rock" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        //  Advanture movie
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/AdvantureT01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Advanture Movie"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    // 1 ///
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/AdvantureM1"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_marginLeft="21dp"
+                                android:layout_marginStart="21dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/advanture1"
+                                android:layout_weight="0.04" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/AdvantureT1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 2 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/AdvantureM2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/advanture2" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/AdvantureT2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 3 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/AdvantureM3"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/advanture3" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/AdvantureT3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 4 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/AdvantureM4"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                app:srcCompat="@drawable/advanture4" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/AdvantureT4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  5  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/AdvantureM5"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/advanture5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/AdvantureT5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  6  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/AdvantureM6"
+                                    android:layout_width="120dp"
+                                    android:layout_height="170dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView2"
+                                    app:srcCompat="@drawable/advanture6" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/AdvantureT6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignLeft="@+id/textView2"
+                                        android:layout_alignStart="@+id/textView2"
+                                        android:layout_below="@+id/imageView2"
+                                        android:layout_marginTop="5dp"
+                                        android:text="The Rock" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        // Comedy Movie
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Comedy01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Comedy Movie"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    // 1 ///
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/Comedym1"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_marginLeft="21dp"
+                                android:layout_marginStart="21dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/comedy1"
+                                android:layout_weight="0.04" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Comedy1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 2 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Comedym2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/comedy2" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Comedy2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 3 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Comedym3"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/comedy3" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Comedy3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 4 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Comedym4"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                app:srcCompat="@drawable/comedy4" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Comedy4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  5  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Comedym5"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/comedy5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Comedy5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  6  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/Comedym6"
+                                    android:layout_width="120dp"
+                                    android:layout_height="170dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView2"
+                                    app:srcCompat="@drawable/comedy6" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Comedy6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignLeft="@+id/textView2"
+                                        android:layout_alignStart="@+id/textView2"
+                                        android:layout_below="@+id/imageView2"
+                                        android:layout_marginTop="5dp"
+                                        android:text="The Rock" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        // Crime Movie
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Crime01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Crime Movie"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    // 1 ///
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/Crimem1"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_marginLeft="21dp"
+                                android:layout_marginStart="21dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/crime1"
+                                android:layout_weight="0.04" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/crimet1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 2 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Crimem2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/crime2" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/crimet2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 3 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/crimem3"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/crime3" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/crimet3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 4 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Crimem4"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                app:srcCompat="@drawable/crime4" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/crimet4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  5  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Crimem5"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/crime5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/crimet5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  6  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/Crimem6"
+                                    android:layout_width="120dp"
+                                    android:layout_height="170dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView2"
+                                    app:srcCompat="@drawable/crime6" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/crimet6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignLeft="@+id/textView2"
+                                        android:layout_alignStart="@+id/textView2"
+                                        android:layout_below="@+id/imageView2"
+                                        android:layout_marginTop="5dp"
+                                        android:text="The Rock" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        // Horror Movie
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Horror Movie"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    // 1 ///
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/horrorm1"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_marginLeft="21dp"
+                                android:layout_marginStart="21dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/horror1"
+                                android:layout_weight="0.04" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/horrort1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 2 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/horrorm2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/horror2" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/horrort2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 3 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/horrorm3"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/horror3" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/horrort3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    // 4 //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/horrorm4"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                app:srcCompat="@drawable/horror4" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/horrort4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  5  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/horrorm5"
+                                android:layout_width="120dp"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/textView2"
+                                app:srcCompat="@drawable/horror5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/horrort5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignLeft="@+id/textView2"
+                                    android:layout_alignStart="@+id/textView2"
+                                    android:layout_below="@+id/imageView2"
+                                    android:layout_marginTop="5dp"
+                                    android:text="The Rock" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    //  6  //
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        android:id="@+id/linearLayout">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/horrorm6"
+                                    android:layout_width="120dp"
+                                    android:layout_height="170dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView2"
+                                    app:srcCompat="@drawable/horror6" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/horrort6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignLeft="@+id/textView2"
+                                        android:layout_alignStart="@+id/textView2"
+                                        android:layout_below="@+id/imageView2"
+                                        android:layout_marginTop="5dp"
+                                        android:text="The Rock" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+        </LinearLayout>
+
+
+
